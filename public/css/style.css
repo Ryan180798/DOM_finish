@@ -1,0 +1,49 @@
+
+.conttitre{
+    display: flex;
+    justify-content: center;
+}
+
+.titre{
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btt{
+    margin-top: 10px;
+    text-align: center; 
+}
+
+#bt1, #bt2, #bt3, #bt4, #bt5, #bt6, #bt7{
+    width: 100px;
+    height: 20px;
+    margin: 7px; 
+}
+
+#bt1:hover, #bt2:hover, #bt3:hover, #bt4:hover, #bt5:hover, #bt6:hover, #bt7:hover{
+    background-color: black;
+    color: white;
+}
+
+.c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cont2{
+    background: grey;
+    width: 800px;
+    height: 400px;
+}
+
+h5{
+    margin: 40px 0 0 40px;
+}
