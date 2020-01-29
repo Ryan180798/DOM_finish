@@ -187,3 +187,40 @@ p{
     color: white;
 }
 
+
+.c5{
+    margin: auto;
+    margin-top: 30px;
+    background: grey;
+    width: 800px;
+    height: auto;
+}
+
+.cont5{
+    margin-left: 40px;
+
+}
+
+#hh2{
+    position: relative;
+    top: 30px;
+}
+
+#ppp{
+    position: relative;
+    top: 30px;
+}
+
+#goo, #goo2{
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: mediumseagreen;
+    border: none;
+    height: 30px;
+}
+
+.list-oeuf{
+    margin-top: 30px;
+}

@@ -15,6 +15,12 @@ btnj.onclick = function myFonction() {
   nbclick += 1;
   document.getElementById("nbclick").innerHTML = nbclick;
 }
+
+
+btnv.onclick = function myFonctionn() {
+  nbclick = 0;
+  document.getElementById("nbclick").innerHTML = nbclick;
+}
  
 
 
