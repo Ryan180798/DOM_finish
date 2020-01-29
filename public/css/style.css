@@ -198,6 +198,7 @@ p{
 
 .cont5{
     margin-left: 40px;
+    width: 100%;
 
 }
 
@@ -211,7 +212,7 @@ p{
     top: 30px;
 }
 
-#goo, #goo2{
+#goo, #goo2, #goo3, #btnc{
     position: relative;
     top: 30px;
     font-size: 18px;
