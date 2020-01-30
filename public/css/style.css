@@ -63,18 +63,28 @@ h5{
     height: 350px;
 }
 
-h4{
+#montt{
+    margin-top: 30px;
     font-size: 30px;
     width: 600px;
     height: 35px;
 
 }
 
-p{
+#pp{
+    margin-top: 30px;
     font-size: 15px;
 }
 
+ul{
+    margin-top: 20px;
+    font-size: 15px;
+}
 
+#p{
+    margin-top: 20px;
+    font-size: 15px;
+}
 
 
 .c3{
@@ -192,7 +202,7 @@ p{
     margin: auto;
     margin-top: 30px;
     background: grey;
-    width: 800px;
+    width: 700px;
     height: auto;
 }
 
@@ -225,3 +235,162 @@ p{
 .list-oeuf{
     margin-top: 30px;
 }
+
+.c6{
+    margin: auto;
+    margin-top: 30px;
+    background: grey;
+    width: 800px;
+    height: 600px;
+}
+
+.cont6{
+    margin-left: 40px;
+    width: 100%;
+
+}
+
+#calc{
+    position: relative;
+    top: 50px;
+}
+
+#n1{
+    position: relative;
+    top: 60px;
+}
+
+#n2{
+    position: relative;
+    top: 100px;
+}
+
+#section{
+    display: flex;
+    position: relative;
+    top: 70px;
+}
+
+#input1, #input2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 15px;
+    margin: 10px;
+}
+#egal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+select{
+    margin: 10px;
+}
+
+#h6{
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+
+/*********************************** CALCULETTE ************************************/
+#secc{
+    max-width: 100%;
+}
+
+#secc2 {
+    font-size: 30%;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+.calcul-content{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 300px;
+    background-color: #b0353a;
+    border-radius: 15px;
+    margin: auto;
+}
+
+  .calculator {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    position: absolute;
+    width: 200px;
+  }
+  
+  .calculator-screen {
+    width: 100%;
+    font-size: 2rem;
+    height: 30px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 8px;
+  }
+  
+ #op{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 1rem;
+    color: #333;
+    background-image: linear-gradient(to bottom,transparent,transparent 50%,rgba(0,0,0,.04));
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+    text-shadow: 0 1px rgba(255,255,255,.4);
+  }
+  
+  #op:hover {
+    background-color: #eaeaea;
+  }
+   
+  
+  .all-clear {
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+  }
+  
+  .all-clear:hover {
+    background-color: #f17377;
+  }
+  
+  .equal-sign {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+    height: 100%;
+    grid-area: 2 / 4 / 6 / 5;
+  }
+  
+  .equal-sign:hover {
+    background-color: #4e9ed4;
+  }
+  
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 15px;
+  }
